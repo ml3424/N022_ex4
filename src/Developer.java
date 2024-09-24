@@ -11,4 +11,10 @@ public class Developer extends Employee{
         super.getDetails();
         System.out.println("work as a developer");
     }
+
+    @Override
+    void performTask()
+    {
+        System.out.println("develop something");
+    }
 }

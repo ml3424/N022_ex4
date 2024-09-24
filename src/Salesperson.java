@@ -11,4 +11,10 @@ public class Salesperson extends Employee{
         super.getDetails();
         System.out.println("work as a saleperson");
     }
+
+    @Override
+    void performTask()
+    {
+        System.out.println("sale something");
+    }
 }

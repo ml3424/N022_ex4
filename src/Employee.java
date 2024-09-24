@@ -12,4 +12,9 @@ public class Employee {
         System.out.println("id: " + employee_id );
         System.out.println("name: " + name);
     }
+
+    void performTask()
+    {
+        System.out.println("do something, anything");
+    }
 }

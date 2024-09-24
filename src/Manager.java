@@ -11,4 +11,10 @@ public class Manager extends Employee{
         super.getDetails();
         System.out.println("work as a manager");
     }
+
+    @Override
+    void performTask()
+    {
+        System.out.println("manage something");
+    }
 }
